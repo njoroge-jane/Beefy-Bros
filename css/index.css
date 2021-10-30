@@ -1,0 +1,63 @@
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: -130px;
+}
+#logo {
+  height: 100px;
+  width: 170;
+  background-color: rgb(150, 14, 14);
+max-width: 120px;
+padding-top: 100px;
+margin-left: 100px;
+}
+.nav-list a:hover {
+ background-color: orange;
+ color: black;
+padding: 10px;
+border-radius: 18%;
+}
+.nav-list a{
+color: orange;
+text-decoration: none;
+}
+.banner-navbar {
+background-image: url(https://images.pexels.com/photos/1556688/pexels-photo-1556688.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+height: 700px;
+/* background-color: rgb(27, 24, 24); */
+background-repeat: no-repeat;
+background-size: contain;
+}
+.banner {
+  background-color: maroon;
+  width: 30%;
+  padding: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  text-align: center;
+  border-radius: 50%;
+  float: right;
+  /* transform: scale(2.5); */
+  transform: rotate(-30deg);
+  font-size: 30px;
+  color: orange;
+  line-height: 90px;
+ /* opacity: 1; */
+}
+.banner h1 {
+  color: #303C3D;
+  background-image: linear-gradient(to left,#394b4e, #202e30,#202e30, rgb(236, 139, 48), orange);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.navbar {
+position: sticky;
+}
