@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .nav-list {
   display: flex;
   justify-content: center;
@@ -48,8 +51,7 @@ background-size: contain;
   font-size: 30px;
   color: orange;
   line-height: 90px;
- /* opacity: 1; */
-}
+ }
 .banner h1 {
   color: #303C3D;
   background-image: linear-gradient(to left,#394b4e, #202e30,#202e30, rgb(236, 139, 48), orange);
@@ -58,6 +60,77 @@ background-size: contain;
   background-clip: text;
   color: transparent;
 }
-.navbar {
-position: sticky;
+.bodypart {
+  display: grid;
+  grid-template-columns: 200px 700px 400px;
+}
+.classic, .nyamchom, .vegeterian, .sides, .drinks{
+  display: flex;
+}
+#burger  {
+  width: 40%;
+  height: 280px;
+  border: 1px solid;
+  margin-left: 20px;
+
+}
+#burger1 {
+  width: 40%;
+  height: 280px;
+  border: 1px solid;
+  margin-left: 20px;
+
+}
+#burger2  {
+  width: 40%;
+  height: 280px;
+  border: 1px solid;
+  margin-left: 20px;
+
+}
+#sides {
+  width: 40%;
+  height: 280px;
+  border: 1px solid;
+  margin-left: 20px;
+
+}
+#drinks {
+  width: 40%;
+  height: 280px;
+  border: 1px solid;
+  margin-left: 20px;
+
+}
+.menu h1 {
+text-align: center;
+color: orange;
+}
+.menu a {
+ color: orange;
+ text-decoration: none;
+}
+.menu a:hover {
+  color: white;
+ font-size: 25px;
+}
+.menu ul {
+  padding-left: 0px;
+  line-height: 1.8;
+  text-align: center;
+  margin-top: 50px;
+  transition: font-size 2s;
+}
+.menu{
+  border: 1px solid maroon;
+  border-bottom: none;
+  /* margin-right: 0px; */
+  margin-top: 80px;
+  height: 20%;
+  background-color: maroon;
+}
+.menu hr {
+  height: 3px;
+  background-color: orange;
+  border: none;
 }
