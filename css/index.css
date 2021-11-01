@@ -62,45 +62,38 @@ background-size: contain;
 }
 .bodypart {
   display: grid;
-  grid-template-columns: 200px 700px 400px;
+  grid-template-columns: 200px 700px 300px;
+  margin-top: 80px;
 }
 .classic, .nyamchom, .vegeterian, .sides, .drinks{
   display: flex;
+  margin-bottom: 80px;
+  margin-left: 40px;
 }
 #burger  {
-  width: 40%;
+  width: 90%;
   height: 280px;
-  border: 1px solid;
-  margin-left: 20px;
-
+margin-top: -80px;
+margin-bottom: -30px;
 }
 #burger1 {
-  width: 40%;
-  height: 280px;
-  border: 1px solid;
-  margin-left: 20px;
-
+  width: 100%;
+  height: 200px;
 }
 #burger2  {
-  width: 40%;
+  width: 90%;
   height: 280px;
-  border: 1px solid;
-  margin-left: 20px;
-
+margin-top: -80px;
 }
 #sides {
-  width: 40%;
-  height: 280px;
-  border: 1px solid;
+  width: 90%;
+  height: 250px;
   margin-left: 20px;
 
 }
 #drinks {
-  width: 40%;
-  height: 280px;
-  border: 1px solid;
-  margin-left: 20px;
-
+  width: 110%;
+  height: 250px;
 }
 .menu h1 {
 text-align: center;
@@ -125,12 +118,70 @@ color: orange;
   border: 1px solid maroon;
   border-bottom: none;
   /* margin-right: 0px; */
-  margin-top: 80px;
-  height: 20%;
+  /* margin-top: 80px; */
+  height: 15%;
   background-color: maroon;
 }
 .menu hr {
   height: 3px;
   background-color: orange;
   border: none;
+}
+.mainbody h1 {
+  text-align: center;
+  color: orange;
+}
+.offers img{
+ height: 280px;
+ margin-left: 150px;
+ border-radius: 100px;
+}
+.mainbody hr{
+  width: 10%;
+  height: 7px;
+  background-color: maroon;
+  border: none;
+  margin-top: -5px;
+  margin-bottom: 50px;
+}
+.mainbody h3 {
+  margin-left: 50px;
+  color: orange;
+}
+#classic_details{
+  text-align: center;
+}
+.burger0, .burger0-1, .burger0-2, .burger1, .burger1_1, .burger1_2, .burger2, .fries, .coleslaw, .water, .juice, .soda {
+  /* border-style: solid; */
+  box-shadow: 2px 2px 2px 2px orange;
+  margin-left: 20px;
+  border-radius: 20%;
+}
+.mainbody button{
+  border: none;
+  background-color: maroon;
+  color: orange;
+  text-align: center;
+  padding: 10px;
+  margin-left: 45px;
+  border-radius: 25px;
+  margin-bottom: 8px;
+}
+.mainbody h4 {
+  text-align: center;
+}
+.sides button {
+  margin-left: 110px;
+}
+.water img {
+  margin-left: -30px;
+  margin-right: -40px;
+}
+.soda img{
+margin-right: 80px;
+}
+.cart{
+  margin-left: 70px;
+  border: 3px solid orange;
+  padding-left: 20px;
 }
