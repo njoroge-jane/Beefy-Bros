@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beefy-Bros_Best-Burgers</title>
+  <link rel="shortcut icon" href="images/logo.png" type="image/png">
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -20,7 +21,7 @@
             <a href="#HOME">Home</a>
             <a href="#MENU">Menu</a>
             <a href="">Contact/Enquiries</a>
-            <a href="">Cart</a>
+            <a href="#cart">Cart</a>
           </ul>
         </nav>
       </div>
@@ -43,22 +44,23 @@
         MENU</h1>
         <hr>
       <ul class="ulmenu">
-        <h3><a href="">OFFERS</a></h3>
-        <h3><a href="">Burgers</a></h3>
-        <h3><a href="">Sides</a></h3>
-       <h3><a href="">Drinks</a></h3> 
+        <h3><a href="#offers">OFFERS</a></h3>
+        <h3><a href="#burgers">Burgers</a></h3>
+        <h3><a href="#sidess">Sides</a></h3>
+       <h3><a href="#drink">Drinks</a></h3>
+       <h3><a href="#HOME">HOME</a> </h3>
       </ul>
     </div>
 
 <div class="mainbody">
 
-  <div class="offers">
+  <div id="offers" class="offers">
 <h1>OFFERS!!</h1>
 <hr>
 <img src="images/offer.png" alt="">
   </div>
 
-  <div class="burgers_menu">
+  <div id="burgers" class="burgers_menu">
     <h1>BURGERS</h1>
     <hr>
     <h3> CLASSIC BURGERS</h3>
@@ -168,7 +170,7 @@
 
   <h1>SIDES</h1>
   <hr>
-  <div class="sides">
+  <div id="sidess" class="sides">
 <div class="fries">
   <h4>French Fries</h4>
   <img id="sides" src="images/french fries.png" alt="">
@@ -192,8 +194,7 @@
 
   <h1>DRINKS</h1>
   <hr>
-  <div class="drinks">
-
+  <div id="drink" class="drinks">
 <div class="water">
   <h4>Water</h4>
 <img id="drinks" src="images/water.png" alt="">
@@ -231,16 +232,19 @@
 
 </div>
 
-  <div class="cart">
+  <div id="cart" class="cart" >
     <h3>IN CART</h3>
-    <p>size</p>
+    <h4>Your Order</h4>
+    <p>size 
+    </p>
     <p>crust</p>
     <p>delivery</p>
-    <h3>TOTAL</h3>
+    <h2>TOTAL
+    </h2>
     <button>CHECKOUT</button>
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
