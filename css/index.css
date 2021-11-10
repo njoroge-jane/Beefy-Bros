@@ -62,7 +62,7 @@ background-size: contain;
 }
 .bodypart {
   display: grid;
-  grid-template-columns: 200px 700px 300px;
+  grid-template-columns: auto auto;
   margin-top: 80px;
 }
 .classic, .nyamchom, .vegeterian, .sides, .drinks{
@@ -115,13 +115,13 @@ color: orange;
   transition: font-size 2s;
 }
 .menu{
-  border: 1px solid maroon;
+  /* border: 1px solid maroon;
   border-bottom: none;
   /* margin-right: 0px; */
   /* margin-top: 80px; */
   height: 15%;
   background-color: maroon;
-  position: sticky;
+  position: sticky; 
 }
 .menu hr {
   height: 3px;
@@ -220,4 +220,18 @@ footer a {
   text-decoration: none;
   color: maroon;
   font-size: 20px;
+}
+ .menu1 {
+  /* border: 1px solid maroon;
+  border-bottom: none;
+  margin-right: 0px;
+  /* margin-top: 80px; */
+
+  background-color: maroon;
+  position: fixed;
+  left: 50px;
+  bottom: 180px;
+width: 200px;
+margin-left: -50px;
+height: fit-content;
 }
